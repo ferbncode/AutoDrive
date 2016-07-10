@@ -45,6 +45,7 @@ def f1_labels(clf, features, target):
     return performance_metric(target, y_pred)
 
 def predict_label(clf, testX):
+	print testX.shape
 	return clf.predict(testX)
 #clf = SVC(gamma=.001,C=0.3,kernel='linear',random_state=21)
 #clf = DecisionTreeClassifier(max_depth=3, random_state=35)
