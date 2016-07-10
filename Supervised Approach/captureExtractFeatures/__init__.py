@@ -1,3 +1,3 @@
-from .captureExtract import convertToKClusterdImage, make2dBlueMatrix, captureImage
+from .captureExtract import convertToKClusteredImage, make2dBlueMatrix, captureImage
 
-__all__ = ["convertToKClusterdImage", "make2dBlueMatrix", "captureExtract"]
+__all__ = ["convertToKClusteredImage", "make2dBlueMatrix", "captureImage"]
